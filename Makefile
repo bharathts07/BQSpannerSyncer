@@ -5,4 +5,4 @@ dep:
 
 .PHONY: run
 run:
-	pipenv run python -m template.simple_pipe --output=temp.txt
+	pipenv run python -m pipeline.bq_to_spanner
